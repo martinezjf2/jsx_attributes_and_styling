@@ -7,7 +7,7 @@ ReactDOM.render(
   <div>
     <h1 className="heading">My Favourite Foods</h1>
     <div>
-      <img src={img} />
+      <img src={img + "?grayscale"} />
     </div>
   </div>,
   document.getElementById("root")
